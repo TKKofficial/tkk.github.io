@@ -1,0 +1,94 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TKK Portfolio Page demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  #navbar {
+  height: 100vh;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  color: green;
+}
+  header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #cc0000;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+}
+  </style>
+  </head>
+  <body>
+    <header id="welcome-section">
+      <h1>TKK Portfolio Page Demo<h1/>
+    </header>
+
+    <nav id=navbar>
+      <ul>
+        <a class="nav-link" href="#tribute"><li>Tribute Page</li></a>
+        <a class="nav-link" href="#survey"><li>Lord of the ring survery</li><a>
+        <a class="nav-link" href="#productlanding"><li>Product Landing Page</li><a>
+        <a class="nav-link" href="#technicaldocumentation"><li>Technical documentation page</li><a>
+
+
+      </ul>
+    </nav>
+
+    <section>
+      <a id="projects" class="target"></a>
+      <h2>Projects</h2>
+      <div id="project-grid">
+      <div class="project-tile">
+        <figure>
+          <a id="tribute"></a>
+          <img src="https://th.bing.com/th/id/AMMS_a6beb9a595c4168b4aa39cb356671a6d?pid=ImgDet&w=1920&h=1280&rs=1 " width="150" height="150">
+          <figcaption>Tribute Page</figcaption>
+          <a target="_blank" href="https://codepen.io/tkkofficial/full/WNpvNJo" class="project-tile">Click Here</a>
+        </figure>
+      </div>
+      <div class="project-tile">
+        <figure>
+          <a id="survey"></a>
+          <img src="https://www.bing.com/th?id=AMMS_864eb7e54f2cb84d4be2790032e5fa8e&w=100&h=150&c=7&rs=1&qlt=80&pcl=f9f9f9&cdv=1&dpr=1.25&pid=16.1" width="150" height="150">
+          <figcaption>Lord of the Ring Survery Form<figcaption>
+          <a target="_blank" href="https://codepen.io/tkkofficial/full/VwpLrZd" class="project-tile">Click Here</a>
+        </figure>
+      </div>
+      <div class="project-tile">
+        <figure>
+          <a id="productlanding"></a>
+          <img src="https://th.bing.com/th/id/OIP.GETWDwIGb2LKiv2siS8riAHaHa?pid=ImgDet&rs=1" width="150" height="150">
+          <figcaption>Product Landing Page Draft<figcaption>
+          <a target="_blank" href="https://codepen.io/tkkofficial/full/MWpwOLO" class="project-tile">Click Here</a>
+        </figure>
+      </div>
+      <div class="project-tile">
+        <figure>
+          <a id="technicaldocumentation"></a>
+          <img src="https://www.bing.com/th?id=AMMS_6626f8fc2d0d54638f647521a8c17a0a&w=236&h=183&c=8&rs=1&o=5&dpr=1.25&pid=3.1&rm=2" width="150" height="150">
+          <figcaption>Technical documentation Page<figcaption>
+          <a target="_blank" href="https://codepen.io/tkkofficial/full/rNyVEym" class="project-tile">Click Here</a>
+        </figure>
+      </div>
+    </div>
+
+    </section>
+
+    <div>
+      <a id="profile-link"target="_blank" href="https://codepen.io/your-work">Come visit to my Portfolio</a>
+    </div>
+  </body>
+</html>
